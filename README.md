@@ -14,7 +14,8 @@ https://zenodo.org/records/7523032
 ## Project Setup
 
 1. Install Poetry
-Follow [these](https://python-poetry.org/docs) instructions.
+    
+    Follow [these](https://python-poetry.org/docs) instructions.
 
 2. Clone Repo
 
