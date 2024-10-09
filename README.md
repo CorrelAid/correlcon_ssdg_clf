@@ -21,3 +21,9 @@ https://zenodo.org/records/7523032
 
 3. `poetry install`
 
+## Render Presentation
+
+1. [Install Pandoc](https://pandoc.org/installing.html)
+
+2. `pandoc -t revealjs -s -o documents/presentation/slides.html documents/presentation/slides.md -V revealjs-url=https://unpkg.com/reveal.js/ --include-in-header=documents/presentation/slides.css`
+

@@ -1,0 +1,23 @@
+<style>
+
+.title{
+    font-size: 12px;
+}
+
+.slides {
+    font-size: 0.75em;
+}
+
+.smaller{
+    font-size: 0.5em;
+}
+
+.reveal ul {
+    display: block;
+}
+.reveal ol {
+    display: block;
+}
+
+
+</style>
