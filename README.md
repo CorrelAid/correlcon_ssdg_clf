@@ -5,12 +5,6 @@ Originating from the need to classify CorrelAid projects by the Sustainable Deve
 ## Task Definition
 Multi Label Text Classification
 
-## Data Source
-Single Label Dataset:
-[https://zenodo.org/records/11441197](https://zenodo.org/records/11441197)
-Multi Label Dataset:
-https://zenodo.org/records/7523032
-
 ## Project Setup
 
 1. Install Poetry

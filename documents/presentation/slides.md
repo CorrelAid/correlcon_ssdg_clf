@@ -4,6 +4,20 @@ title: Sustainable Sustainable Development Goal Text Classification
 subtitle: Finding a balance between performance and resource consumption 
 date: October 13, 2024
 ---
+## Agenda for the next 90 minutes
+
+1. Talk (~15 minutes)
+    - Reflecting on the current development in AI usage and its consequences
+    - What does this mean for Data4Good?
+    
+2. Tutorial (~30 minutes) 
+    - Multi Label Text Classification with Binary Relevance with TF-IDF and Logistic Regression
+    - Introduction to modal (severless code execution) and codecarbon (measuring carbon emission) 
+
+3. Coding Session (~45 minutes) 
+    - Learning the introduced methods with example tasks
+    - Exploring ideas
+    - Freestyle exploration
 
 ## Intro 
 
@@ -113,23 +127,16 @@ date: October 13, 2024
 </ol>
 ---
 
-## Text Classification Methods
+## Workshop
 
-#### Approach 1: TF-IDF and SVM
+- Baseline: Binary Relevance with TF-IDF and Logistic Regression 
 
-lorem ipsum
+- Measuring Power Consumption and Carbon Emissions with the `codecarbon` package
 
-#### Approach 2: BERT with Classification Head
-
-lorem ipsum
+- Presentation will continue in a Jupyter Notebook
 
 ---
 
-## Measuring Power Consumption and Carbon Emissions
-
-lorem ipsum
-
----
 
 
 
