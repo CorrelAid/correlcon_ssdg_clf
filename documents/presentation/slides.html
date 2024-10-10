@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="author" content="Jonas Stettner (CorrelAid)">
   <meta name="dcterms.date" content="2024-10-13">
-  <title>Sustainable Sustainable Development Goal Text Classifiaction</title>
+  <title>Sustainable Sustainable Development Goal Text Classification</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -39,11 +39,17 @@
   }
 
   .slides {
-      font-size: 0.75em;
+      font-size: 0.68em;
   }
 
+  h4 {
+      text-align: left;
+  }
+
+  p {text-align: left;}
+
   .smaller{
-      font-size: 0.5em;
+      font-size: 0.4em;
   }
 
   .reveal ul {
@@ -62,9 +68,9 @@
 
 <section id="title-slide">
   <h1 class="title">Sustainable Sustainable Development Goal Text
-Classifiaction</h1>
+Classification</h1>
   <p class="subtitle">Finding a balance between performance and resource
-consumption of</p>
+consumption</p>
   <p class="author">Jonas Stettner (CorrelAid)</p>
   <p class="date">October 13, 2024</p>
 </section>
@@ -72,15 +78,27 @@ consumption of</p>
 <section id="intro" class="slide level2">
 <h2>Intro</h2>
 <ul>
-<li><p>Running code in the cloud consumes resources, with recent AI
-trends increasing consumption manyfold.</p></li>
-<li><p>Examples:</p>
+<li><p>Emergent AI energy crisis <span
+class="math inline"><sup>1</sup></span>, causing cloud providers to
+utilize fault-prone nuclear reactors <span
+class="math inline"><sup>2</sup></span></p></li>
+<li><p>The physical reality of the cloud and AI:</p>
 <ul>
-<li>Search driven by generative AI uses four to five times the energy of
-a conventional web search<sup>1</sup></li>
-<li></li>
+<li>🔌 Global power consumption of data centres to range between
+<strong>620 - 1050 TWh</strong> in 2026. Comparison: Europe consumed
+<strong>3.674 TWh</strong> in 2022 <span
+class="math inline"><sup>3</sup></span></li>
+<li>🏭 ICT sector currently responsible for a similar percentage of
+global carbon emission as aviation: <strong>~2%</strong> <span
+class="math inline"><sup>4</sup></span></li>
+<li>🌊 AI may be accountable for more than the total annual water
+withdrawal of <strong>4 – 6</strong> Denmark or <strong>half</strong> of
+the United Kingdom in 2027 <span
+class="math inline"><sup>5</sup></span></li>
 </ul></li>
-<li><p>Ethical Judgment: Resource</p></li>
+<li><p>Trusting in innovation: Increased efficiency can lead to
+increased overall resource consumption (Jevons Paradoxon or Rebound
+Effects)</p></li>
 </ul>
 <hr/>
 <ol>
@@ -89,40 +107,175 @@ Crawford, K. (2024). Generative AI’s environmental costs are soaring —
 and mostly secret. Nature, 626, 693–693. doi: <a
 href="https://www.nature.com/articles/d41586-024-00478-x">10.1038/d41586-024-00478-x</a>
 </li>
+<li class="smaller">
+Luscombe, R. (2024). Three Mile Island nuclear reactor to restart to
+power Microsoft AI operations. <a
+href="https://www.theguardian.com/environment/2024/sep/20/three-mile-island-nuclear-plant-reopen-microsoft">The
+Guardian</a>
+</li>
+<li class="smaller">
+IEA (2024), Electricity 2024, IEA, Paris
+https://www.iea.org/reports/electricity-2024
+</li>
+<li class="smaller">
+Aouf, R. S. (2024). AI’s “eye-watering” use of resources could be a
+hurdle to achieving climate goals, argue experts. <a
+href="https://www.dezeen.com/2023/08/09/ai-resources-climate-environment-energy-aitopia/">Dezeen</a>
+</li>
+<li class="smaller">
+Li, P., Yang, J., Islam, M. A., &amp; Ren, S. (2023). Making AI Less
+“Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI
+Models. arXiv, 2304.03271. doi: <a
+href="https://doi.org/10.48550/arXiv.2304.03271">10.48550/arXiv.2304.03271</a>
+</li>
 </ol>
 </section>
-<section id="yann-lecun" class="slide level2">
-<h2>Yann LeCun</h2>
-<figure>
-<img data-src="images/lecun.png" alt="Yann LeCun on Wikipedia" />
-<figcaption aria-hidden="true">Yann LeCun on Wikipedia</figcaption>
-</figure>
-<p>Chief AI Scientist (and several other titles) at Facebook, “founding
-father of convolutional nets.”</p>
+<section id="brief-digression-on-ai-hype" class="slide level2">
+<h2>Brief digression on AI hype</h2>
+<ul>
+<li><p>The method being hyped to solve all of the worlds problems and
+currently mostly being understood as AI is <strong>Deep
+Learning</strong> (large neural models)</p></li>
+<li><p>Deep Learning can only solve pattern matching problems (learning
+data distributions) with lots of available data <span
+class="math inline"><sup>1</sup></span></p></li>
+<li><p>Potential Performance Improvement Barriers</p>
+<ul>
+<li>Data Availability <span class="math inline"><sup>2</sup></span> and
+Model Collapse <span class="math inline"><sup>3</sup></span></li>
+<li>Neural Scaling Laws: Diminishing Marginal Returns <span
+class="math inline"><sup>4</sup></span></li>
+</ul></li>
+<li><p>Don’t trust the hype but also dont trust the anti-hype
+hype</p></li>
+</ul>
+<hr/>
+<ol>
+<li class="smaller">
+Stevens, H. (2024, October 10). In a new manifesto, OpenAI’s Sam Altman
+envisions an AI utopia – and reveals glaring blind spots. Retrieved from
+https://theconversation.com/in-a-new-manifesto-openais-sam-altman-envisions-an-ai-utopia-and-reveals-glaring-blind-spots-239841
+</li>
+<li class="smaller">
+Villalobos, P., Ho, A., Sevilla, J., Besiroglu, T., Heim, L., &amp;
+Hobbhahn, M. (2022). Will we run out of data? Limits of LLM scaling
+based on human-generated data. arXiv, 2211.04325 doi: <a
+href="https://arxiv.org/abs/2211.04325">10.48550/arXiv.2211.04325</a>
+</li>
+<li class="smaller">
+Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R.,
+&amp; Gal, Y. (2024). AI models collapse when trained on recursively
+generated data. Nature, 631, 755–759. doi: <a
+href="https://www.nature.com/articles/s41586-024-07566-y">10.1038/s41586-024-07566-y</a>
+</li>
+<li class="smaller">
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B.,
+Child, R., …Amodei, D. (2020). Scaling Laws for Neural Language Models.
+arXiv, 2001.08361. doi: <a
+href="https://arxiv.org/abs/2001.08361">10.48550/arXiv.2001.08361</a>
+</li>
+</ol>
 </section>
-<section id="yann-le-cun-vs.-yann-lecun" class="slide level2">
-<h2>Yann Le Cun vs. Yann LeCun</h2>
-<blockquote>
-<p>All kinds of badly programmed computers thought that “Le” was my
-middle name. Even the science citation index knew me as “Y. L. Cun”,
-which is one of the reasons I now spell my name “LeCun”.</p>
-<p>From Yann’s <a href="http://yann.lecun.com/ex/fun/">Fun Stuff</a>
-page</p>
-<p>Also: <a
-href="https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/">Falsehoods
-Programmers Believe About Names</a></p>
-</blockquote>
+<section id="hypothesis" class="slide level2">
+<h2>Hypothesis</h2>
+<ul>
+<li><p>Large neural models (not including neural models recently defined
+as being small) are inefficient with regard to performance and resource
+consumption for a range of tasks</p></li>
+<li><p>Alternatives can achieve <strong>better</strong> performance with
+<strong>less</strong> ressources or achieve a better balance</p></li>
+<li><p>Examples:</p>
+<ul>
+<li>Search</li>
+<li>Web Scraping (parsing)</li>
+</ul></li>
+<li><p>NLP: Specialized Small Language Models vs. Generalized Large
+Language Models</p></li>
+</ul>
 </section>
-<section class="slide level2">
-
-<h3 id="the-problem">The Problem</h3>
-<p>How to turn handwritten ZIP codes from envelopes into numbers</p>
-<figure>
-<img data-src="images/original.png"
-alt="Examples of original zipcodes from the testing set" />
-<figcaption aria-hidden="true">Examples of original zipcodes from the
-testing set</figcaption>
-</figure>
+<section id="the-sustainable-development-goals" class="slide level2">
+<h2>The Sustainable Development Goals</h2>
+<ul>
+<li><p>The 17 Sustainable Development Goals are part of an agenda that
+the UN is working towards</p></li>
+<li><p>Defines a desirable future for society and environment</p></li>
+<li><p>The UN additionally introduced a range of indicators to measure
+progress,</p></li>
+<li><p>E.g. Climate Action (SDG 13)</p>
+<ul>
+<li>“<em>Take urgent action to combat climate change and its
+impacts</em>” <span class="math inline"><sup>1</sup></span></li>
+<li>Indicator 13.2.2: Total greenhouse gas emissions per year <span
+class="math inline"><sup>2</sup></span></li>
+</ul></li>
+</ul>
+<hr/>
+<ol>
+<li class="smaller">
+THE 17 GOALS | Sustainable Development. (2024, October 02). Retrieved
+from https://sdgs.un.org/goals
+</li>
+<li class="smaller">
+SDG Indicator 13.2.2 - Total greenhouse gas emissions per year - German
+Indicators For The UN Sustainable Development Goals. (2024, October 04).
+Retrieved from https://sdg-indikatoren.de/en/13-2-2
+</li>
+</ol>
+</section>
+<section id="ethical-reasoning" class="slide level2">
+<h2>Ethical Reasoning</h2>
+<ul>
+<li><p>As Data4Good practioners, following a <strong>utilitarian
+logic</strong>, we should be aware that we can have impact on one
+challenge with the help of methods that worsen a different
+problem</p></li>
+<li><p>Advancing SDG “Zero Hunger” at the cost of SDG “Climate Action”
+has the potential to make an approach overall
+<strong>unsustainable</strong></p></li>
+<li><p>Some challenges of this simple utalitarian logic:</p>
+<ul>
+<li>Some aspects of human experience can’t be quantified</li>
+<li>Irreversible extinction of a species can be a understood as a
+qualitative loss transcending biodiversity loss</li>
+<li>Uncertain tipping points and complex dynamics</li>
+</ul></li>
+<li><p>➡️ First step is to make visible and quantify a methods
+consequences</p></li>
+</ul>
+</section>
+<section id="todays-meta-task" class="slide level2">
+<h2>Today’s (Meta) Task</h2>
+<ul>
+<li><p>Origin Story: Classifying past CorrelAid projects by the SDG they
+advance</p></li>
+<li><p>Multi Label Text Classification (vs. binary and
+multi-class)</p></li>
+<li><p>Chosen Dataset: “SDG Knowledge Hub Dataset of SDG-labeled News
+Articles”</p></li>
+<li><p>➡️ Exploring tools to measure power consumption and carbon
+emissions of running classification code</p></li>
+</ul>
+<hr/>
+<ol>
+<li class="smaller">
+SDG Knowledge Hub Dataset of SDG-labeled News Articles. (2023, January
+10). doi: <a
+href="https://zenodo.org/records/7523032">10.5281/zenodo.7523032</a>
+</li>
+</ol>
+</section>
+<section id="text-classification-methods" class="slide level2">
+<h2>Text Classification Methods</h2>
+<h4 id="approach-1-tf-idf-and-svm">Approach 1: TF-IDF and SVM</h4>
+<p>lorem ipsum</p>
+<h4 id="approach-2-bert-with-classification-head">Approach 2: BERT with
+Classification Head</h4>
+<p>lorem ipsum</p>
+</section>
+<section id="measuring-power-consumption-and-carbon-emissions"
+class="slide level2">
+<h2>Measuring Power Consumption and Carbon Emissions</h2>
+<p>lorem ipsum</p>
 </section>
 <section class="slide level2">
 
