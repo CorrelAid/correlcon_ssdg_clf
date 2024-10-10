@@ -1,9 +1,8 @@
-# Sustainable Sustainable Development Goal Text Classification
+# CorrelCon 2024 Workshop: Sustainable Sustainable Development Goal Text Classification
 
-Originating from the need to classify CorrelAid projects by the Sustainable Developmen Goals (SDGs) they advance, this coding session aims to explore methods for doing this while also exploring how to assess ressource usage of the different methods. In the wake of increased usage of LLMs, such as ChatGPT, ressource consumption is rising fast. For machine learning tasks such as text classification, specialised, less ressource intensive models often achieve better performance than large general models. The goal of this session is to explore ways to find a balance between performance and ressource usage for the specific task of multi label text classification. The Session will begin with an introduction to the task at hand, followed by an introduction into how to measure ressource usage of excecuting code. Afterwards, several methods will be introduec, ranked by their ressource usage. 
+As the use of generative AI such as ChatGPT increases, so does the associated global resource consumption, to the point where Big Tech is reportedly considering operating fault-prone nuclear reactors. However, for many tasks, alternative, less resource-intensive approaches often achieve similar or even better performance than large general-purpose language models. Born out of the need to classify CorrelAid projects according to the Sustainable Development Goals (SDGs) they advance, this coding session aims to strike a balance between performance and resource consumption of multi label text classification methods.
 
-## Task Definition
-Multi Label Text Classification
+We will start with a reflection on the current developments in AI usage and their consequences, including the ethical implications for Data4Good. A tutorial on multi-label text classification using binary relevance with TF-IDF and Logistic Regression follows. We will also introduce Modal for serverless code execution and the codecarbon package for measuring carbon emissions. The session will conclude with a coding session where participants can practice the introduced methods through predefined tasks or engage in freestyle exploration.
 
 ## Project Setup
 
@@ -11,9 +10,13 @@ Multi Label Text Classification
     
     Follow [these](https://python-poetry.org/docs) instructions.
 
-2. Clone Repo
+2. Fork or clone this Repo
 
 3. `poetry install`
+
+4. Create an account on [modal.com](https://modal.com/signup)
+
+5. Run `poetry run modal setup`
 
 ## Render Presentation
 

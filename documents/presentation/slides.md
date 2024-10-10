@@ -1,7 +1,6 @@
 ---
 author: Jonas Stettner (CorrelAid)
-title: Sustainable Sustainable Development Goal Text Classification
-subtitle: Finding a balance between performance and resource consumption 
+title: Sustainable Sustainable Development Goal Text Classification 
 date: October 13, 2024
 ---
 ## Agenda for the next 90 minutes
@@ -16,7 +15,6 @@ date: October 13, 2024
 
 3. Coding Session (~45 minutes) 
     - Learning the introduced methods with example tasks
-    - Exploring ideas
     - Freestyle exploration
 
 ## Intro 
@@ -76,6 +74,8 @@ date: October 13, 2024
 
 - NLP: Specialized Small Language Models vs. Generalized Large Language Models
 
+- Small gains in performance lead to an unproportional resource consumption increase (more computational requirements, different model)
+
 ---
 
 ## The Sustainable Development Goals
@@ -125,15 +125,31 @@ date: October 13, 2024
  <ol>
     <li class="smaller">SDG Knowledge Hub Dataset of SDG-labeled News Articles. (2023, January 10). doi: [10.5281/zenodo.7523032](https://zenodo.org/records/7523032)</li>
 </ol>
+
 ---
 
-## Workshop
+## Tutorial Introduction
 
-- Baseline: Binary Relevance with TF-IDF and Logistic Regression 
+- Presentation will continue in a Jupyter Notebook 
+    - How to "quantify" text
+    - Binary Relevance with TF-IDF and Logistic Regression 
 
-- Measuring Power Consumption and Carbon Emissions with the `codecarbon` package
+- Afterwards we will work through a script for code deployment
+    - Running code with modal
+    - Measuring Power Consumption and Carbon Emissions with the `codecarbon` package
 
-- Presentation will continue in a Jupyter Notebook
+- If you want to, you can follow along on your own machine with the repo at: https://github.com/CorrelAid/correlcon_ssdg_clf 
+
+---
+
+## Coding Session Setup
+
+- Follow the Project Setup steps in this workshops repo: https://github.com/CorrelAid/correlcon_ssdg_clf 
+
+- **What you can do now**:
+    - Ask questions or discuss the topic with me or in groups in while others start coding
+    - Work on the tasks described in (ordered by difficulty)
+    - Freestyle coding 💃
 
 ---
 
