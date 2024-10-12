@@ -15,6 +15,9 @@ nltk = "^3.9.1"
 iterative-stratification = "^0.1.8"
 scikit-multilearn-ng = "^0.0.8"
 modal-client = "^0.64.178"
+codecarbon = "^2.7.1"
+country-converter = "^1.2"
+geopy = "^2.4.1"
 
 [build-system]
 requires = ["poetry-core"]

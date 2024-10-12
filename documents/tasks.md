@@ -6,33 +6,31 @@
 - While completing these tasks, pay attention to the performance metrics and the output of codecarbon. 
 - I have not completed these tasks myself, so their completion may not lead to performance increases.
 
-## A: 
+## A: Research how much energy other things than a water cooker consume
+- Replace the variable here `l_water_b = cc_data.tail(1).select(["energy_consumed"]).item(-1,-1)/l_water` 
 
-## B: Explore different preprocessing approaches
-- Utilize lemmatization instead of stemming. Use the 
-- 
 
-## C: Explore different classification algorithms
+## B: Explore different classification algorithms
 - Simply swap out LogisticRegression with suitable methods such as [SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) or [MultinomialNB]https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
 - Explore the methods contained in the already installed scikit-multilearn-ng package that do not require problem transformation, see [here](https://scikit-multilearn-ng.github.io/scikit-multilearn-ng/source/skmultilearn.adapt.html#module-skmultilearn.adapt).
 
-## D: Explore classifier chains as a different problem transformation approach
+## C: Explore classifier chains as a different problem transformation approach
 - Use the [classifier chain](https://scikit-multilearn-ng.github.io/scikit-multilearn-ng/source/skmultilearn.problem_transform.html#skmultilearn.problem_transform.ClassifierChain) method of the already installed 
 scikit-multilearn-ng package
 - Consider taking a look at label dependence (compute correlation) to determine the order of the classifier chain
 
-## E: Develop a binary classifier for a single SDG
+## D: Develop a binary classifier for a single SDG
 - There may be a more suitable dataset here: https://zenodo.org/records/11441197
 - Yeet all problem transformation code and only retain the column of the chosen SDG 
 - You need to use a different test/train split method, e.g. this [this](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html). 
 - Feature extraction can remain unchanged
 
-## F: Implement Hyperparameter Optimization
+## E: Implement Hyperparameter Optimization
 - Hyperparameters depend on the classification algorithm, see [here](https://scikit-learn.org/1.5/modules/generated/sklearn.linear_model.LogisticRegression.html) for logistic regression.
 - Most simple method for this is grid search, find an example here: https://scikit-multilearn-ng.github.io/scikit-multilearn-ng/source/skmultilearn.problem_transform.html#examples
 - It is potentially challenging to make sklearn external optimization methods compatible with the problem transformation approaches of the package used here, but you could try to implement [Bayesian Optimization](https://github.com/bayesian-optimization/BayesianOptimization)
 
-## G: Explore/Research/Implement ways of predicting resource consuption instead of measuring it while executing
+## F: Explore/Research/Implement ways of predicting resource consuption instead of measuring it while executing
 - Implement a simple Multi Layer Perceptron network for (binary or multi label) text classification with pytorch, e.g.:
 
 ```

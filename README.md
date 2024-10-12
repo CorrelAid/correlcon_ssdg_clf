@@ -18,6 +18,12 @@ We will start with a reflection on the current developments in AI usage and thei
 
 5. Run `poetry run modal setup`
 
+## Run model training script
+
+```
+poetry run modal run scripts/train_model.py
+```
+
 ## Render Presentation
 
 1. [Install Pandoc](https://pandoc.org/installing.html)
