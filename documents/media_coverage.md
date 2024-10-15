@@ -24,3 +24,7 @@
 
 - Verspoor, K. (2024, October 10). A new ‘AI scientist’ can write science papers without any human input. Here’s why that’s a problem. Retrieved from https://theconversation.com/a-new-ai-scientist-can-write-science-papers-without-any-human-input-heres-why-thats-a-problem-237029
 
+## LLM maximalism
+
+- https://explosion.ai/blog/against-llm-maximalism
+
